@@ -23,7 +23,7 @@ async def hello(client: app, message):
               ],
               [
                   InlineKeyboardButton("🦋⃟‌‌‌🇼 ‌ɪᷟᴢᷣᴀʀᴅ 🌸", url="https://t.me/hades_wizard"),
-                  InlineKeyboardButton("ᴜᴘᴅᴀᴛᴇ ❄️️️", url="https://t.me/+4RrKR7dlOwxjNWJl"),
+                  InlineKeyboardButton("ᴜᴘᴅᴀᴛᴇ ❄️️️", url="https://t.me/+6_MRCBLepxQ1MzQ9"),
               ],
               [
                   InlineKeyboardButton("⛈️ ʙᴏᴛ ꜱᴛᴀᴛᴜꜱ ᴀɴᴅ ᴍᴏʀᴇ ʙᴏᴛꜱ ⛈️", url="https://t.me/All_SANATANI_BOT/324"),
