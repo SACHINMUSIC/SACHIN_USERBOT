@@ -8,8 +8,8 @@ from SACHINxUSERBOT.helper.basic import edit_or_reply, get_text, get_user
 
 from SACHINxUSERBOT.modules.help import *
 
-OWNER = os.environ.get("OWNER", "⍣꯭͙𓆰꯭͓4꯭ˢᵗ‌‌  ꯭͓ ̶꯭፝֠֩ ̶͓𝜦꯭ℓ͓𝜬꯭𝜢꯭͓𝜦꯭͓ܓ𔘓̶̶꯭ 🎭⃙⃮⃕⃤")
-BIO = os.environ.get("BIO", "ɪ ᴀᴍ ᴘᴀʀᴛ ᴏғ ᴀʟᴘʜᴀ @WORLD_ALPHA")
+OWNER = os.environ.get("OWNER", "⏤꯭𓆩꯭🥀4ˢᵗ•• ⃟⃟⃝⃪‌. ‌🇫🅘🅖🅗🅣🅔🅡 •• ⃟⃟⃝⃪𝆺꯭𝅥🥀 𝅃꯭᳚➛•𔘓")
+BIO = os.environ.get("BIO", "#🅕ʟɪʀᴛɪɴɢⁱᶻ🅜ʏ🅗ᴏʙʙʏⁿ🅟ʟᴀʏ🅑ᴏʏⁱᶻ ᵐʸ🅙ᴏʙ🅕ᴜᴄᴋᵗʰᵉ🅕ᴇᴇʟ🥵ɪᴍ #🅟ʟᴀʏ_ʙᴏʏ @Il_4ST_FIGHTER_lI")
 
 
 @Client.on_message(filters.command("clone", ".") & filters.me)

@@ -68,23 +68,28 @@ async def speed_test(client: Client, message: Message):
 async def pingme(client: Client, message: Message):
     uptime = await get_readable_time((time.time() - StartTime))
     start = datetime.now()
-    xx = await message.reply_text("**0% ▒▒▒▒▒▒▒▒▒▒**")
+    xx = await message.reply_text("**□□□□□□□□□□ 00%**")
     try:
        await message.delete()
     except:
        pass
-    await xx.edit("**20% ███ ɴxᴛ-ᴏᴘ▒▒▒▒▒**")
-    await xx.edit("**40% ████ ɴxᴛ-ᴘᴀᴘᴀ**")
-    await xx.edit("**60% ██████ɴxᴛ-ʙᴀᴀᴘ**")
-    await xx.edit("**80% ████████ ɴxᴛ**")
-    await xx.edit("**100%██████████ᴄᴏᴍɪɴɢ**")
+    await xx.edit("**■□□□□□□□□□ 10%**")
+    await xx.edit("**■■□□□□□□□□ 20%**")
+    await xx.edit("**■■■□□□□□□□ 30%**")
+    await xx.edit("**■■■■□□□□□□ 40%**")
+    await xx.edit("**■■■■■□□□□□ 50%**")
+    await xx.edit("**■■■■■■□□□□ 60%**")
+    await xx.edit("**■■■■■■■□□□ 70%**")
+    await xx.edit("**■■■■■■■■□□ 80%**")
+    await xx.edit("**■■■■■■■■■□ 90%**")
+    await xx.edit("**■■■■■■■■■■ 100%**")
     end = datetime.now()
     duration = (end - start).microseconds / 1000
     await xx.edit(
-        f"❏ **╰☞ 😈𝗡𝗫𝗧😈**\n"
-        f"├• **╰☞ 𝐒ᴘᴇᴇᴅ**`%sms`\n"
-        f"├• **╰☞ 𝐔ᴘᴛɪᴍᴇ** `{uptime}` \n"
-        f"└• **╰☞ 𝐍ᴀᴍᴇ:** {client.me.mention}" % (duration)
+        f"**❖ ⠇ 𝗪𝗜𝗭𝗔𝗥𝗗 𝗫 𝗦𝗣𝝙𝗠​️ ⠇ ❖ **\n"
+        f"**❍ ➥ sᴘᴇᴇᴅ ▸ **`%sms`\n"
+        f"**❍ ➥ ᴜᴘᴅᴀᴛᴇ ▸ ** `{uptime}` \n"
+        f"**❍ ➥ ɴᴀᴍᴇ ▸ :** {client.me.mention}" % (duration)
     )
 
 
