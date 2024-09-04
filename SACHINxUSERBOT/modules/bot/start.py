@@ -9,7 +9,7 @@ from pyrogram import *
 from pyrogram.types import * 
 
 PHONE_NUMBER_TEXT = (
-    "**╭────── ˹ ɪɴғᴏʀᴍᴀᴛɪᴏɴ ˼ ⏤‌‌‌‌★**\n**┆◍ ʜᴇʏ, ɪ ᴀᴍ : [𝐖ɪᴢʌꝛᴅ ꭙ 𝐔sᴇꝛвσᴛ](https://t.me/WIZARD_X_USERBOT) **\n**┆● Sᴀɴᴀᴛᴀɴɪ Bᴏᴛ Vᴇʀsɪᴏɴ :** `2.1.3`\n**┊● Pᴏᴡᴇʀғᴜʟ & Usᴇғᴜʟ Usᴇʀʙᴏᴛ**\n**╰─────────────────────────**\n**──────────────────────────**\n**❖ Hᴏᴡ Tᴏ Usᴇ Tʜɪs Bᴏᴛ - [Cʟɪᴄᴋ Hᴇʀᴇ](https://t.me/TheWizard_Network/29) **\n**──────────────────────────**\n**❖ Sᴇssɪᴏɴs Gᴇɴ Bᴏᴛ ⁚ [Sᴇssɪᴏɴ-Bᴏᴛ](https://t.me/SESSIONxGENxBOT) **\n**──────────────────────────**\n**❖ Cʟᴏɴᴇ Bᴏᴛ  ⁚ /clone [ Sᴛʀɪɴɢ Sᴇssɪᴏɴ ]**\n**──────────────────────────**\n**❖ Uᴘᴅᴀᴛᴇ ⏤‌‌‌‌  [❖ ∣ 𝐖ɪᴢʌꝛᴅ Tᴇᴄʜ ∣ ❖](https://t.me/+4RrKR7dlOwxjNWJl) **\n**──────────────────────────**"
+    "**╭────── ˹ ɪɴғᴏʀᴍᴀᴛɪᴏɴ ˼ ⏤͟͟͞͞★**\n**┆◍ ʜᴇʏ, ɪ ᴀᴍ : [𝛅ʌηʌᴛʌηɪ ꭙ 𝐔sᴇꝛвσᴛ](https://t.me/SANATANI_X_ROBOT) **\n**┆● Sᴀɴᴀᴛᴀɴɪ Bᴏᴛ Vᴇʀsɪᴏɴ :** `2.1.3`\n**┊● Pᴏᴡᴇʀғᴜʟ & Usᴇғᴜʟ Usᴇʀʙᴏᴛ**\n**╰─────────────────────────**\n**──────────────────────────**\n**❖ Hᴏᴡ Tᴏ Usᴇ Tʜɪs Bᴏᴛ - [Cʟɪᴄᴋ Hᴇʀᴇ](https://t.me/All_SANATANI_BOT/132) **\n**──────────────────────────**\n**❖ Sᴇssɪᴏɴs Gᴇɴ Bᴏᴛ ⁚ [Sᴇssɪᴏɴ-Bᴏᴛ](https://t.me/SESSIONxGENxBOT) **\n**──────────────────────────**\n**❖ Cʟᴏɴᴇ Bᴏᴛ  ⁚ /clone [ Sᴛʀɪɴɢ Sᴇssɪᴏɴ ]**\n**──────────────────────────**\n**❖ Uᴘᴅᴀᴛᴇ ⏤͟͟͞͞  [❖ ∣ 𝛅ᴀɴᴀᴛᴀɴɪ Tᴇᴄի ∣ ❖](https://t.me/All_SANATANI_BOT) **\n**──────────────────────────**"
 )
 
 @app.on_message(filters.command("start"))
@@ -19,11 +19,11 @@ async def hello(client: app, message):
                   InlineKeyboardButton(text="🍁 sᴇssɪᴏɴ ɢᴇɴ ʙᴏᴛ 🍁️", url="https://t.me/SESSIONxGENxBOT"),
               ],
               [
-                  InlineKeyboardButton(text="🌿 ʜᴏᴡ ᴛᴏ ᴜsᴇ ᴛʜɪs ʙᴏᴛ 🌿", url="https://t.me/TheWizard_Network/29"),
+                  InlineKeyboardButton(text="🌿 ʜᴏᴡ ᴛᴏ ᴜsᴇ ᴛʜɪs ʙᴏᴛ 🌿", url="https://t.me/All_SANATANI_BOT/132"),
               ],
               [
-                  InlineKeyboardButton("🦋⃟‌‌‌🇼 ‌ɪᷟᴢᷣᴀʀᴅ 🌸", url="https://t.me/hades_wizard"),
-                  InlineKeyboardButton("ᴜᴘᴅᴀᴛᴇ ❄️️️", url="https://t.me/+6_MRCBLepxQ1MzQ9"),
+                  InlineKeyboardButton("🦋⃟‌🇸ʌᷟᴄᷣʜɪ֟፝η 🌸", url="https://t.me/SACHIN_OWNER"),
+                  InlineKeyboardButton("ᴜᴘᴅᴀᴛᴇ ❄️️️", url="https://t.me/ALL_SANATANI_BOT"),
               ],
               [
                   InlineKeyboardButton("⛈️ ʙᴏᴛ ꜱᴛᴀᴛᴜꜱ ᴀɴᴅ ᴍᴏʀᴇ ʙᴏᴛꜱ ⛈️", url="https://t.me/All_SANATANI_BOT/324"),
@@ -45,6 +45,6 @@ async def clone(bot: app, msg: Message):
         client = Client(name="Melody", api_id=API_ID, api_hash=API_HASH, session_string=phone, plugins=dict(root="SACHINxUSERBOT/modules"))
         await client.start()
         user = await client.get_me()
-        await msg.reply(f"❖ ɴᴏᴡ ʏᴏᴜ ᴀʀᴇ ʀᴇᴀᴅʏ ᴛᴏ ғɪɢʜᴛ\n\n❍ ❖ │ 𝐖ɪᴢʌꝛᴅ ꭙ 𝐔sᴇꝛвσᴛ │ ❖\n\n❖ {user.first_name}")
+        await msg.reply(f"❖ ɴᴏᴡ ʏᴏᴜ ᴀʀᴇ ʀᴇᴀᴅʏ ᴛᴏ ғɪɢʜᴛ\n\n❍ [❖ │ sᴀɴᴀᴛᴀɴɪ ꭙ ʙᴏᴛ │ ❖](https://t.me/all_sanatani_bot)\n\n❖ {user.first_name}")
     except Exception as e:
         await msg.reply(f"**ERROR:** `{str(e)}`\nPress /start to Start again.")
